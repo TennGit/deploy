@@ -16,5 +16,5 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://tenngit.github.io/deploy"
+  "homepage": "https://takemenl.com"
 }
