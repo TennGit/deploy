@@ -16,5 +16,5 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://takemenl.com"
+  "homepage": "https://www.takemenl.com"
 }

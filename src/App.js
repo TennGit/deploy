@@ -3,16 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
+  onClick(){
+    alert (" watch out!!! you're in bad luck !!! my love follows you to the end of the world")
+  }
+
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <span className="spanClass">Dxl, u SBbbb!</span>
+        <button className="buttonClass" onClick={this.onClick.bind(this)} >Click me to see more what i wanna tell u</button>
       </div>
     );
   }

@@ -1,5 +1,15 @@
 .App {
+  margin-top: 100px;
   text-align: center;
+}
+
+.spanClass {
+  display: block;
+}
+
+.buttonClass {
+  display: flex;
+  margin:auto;
 }
 
 .App-logo {
